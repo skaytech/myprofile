@@ -1,0 +1,26 @@
+@import "./variables";
+#showcase {
+    h1 {
+        font-size: 4rem;
+        font-weight: 400;
+    }
+    .row {
+        height: 90vh;
+    }
+    #links {
+        margin-top: 1rem;
+    }
+    i {
+        color: #333;
+        margin-right: 2rem;
+        transition: color 0.3s ease-in-out;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+    #photo {
+        img {
+            border-radius: 50%;
+        }
+    }
+}

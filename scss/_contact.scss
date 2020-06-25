@@ -1,0 +1,23 @@
+@import "./variables";
+#contact-info {
+    .section-heading {
+        text-transform: uppercase;
+    }
+    .heading-separator {
+        width: 11rem;
+    }
+    .btn {
+        width: 50%;
+        margin: 0.8rem auto;
+        padding: 0.8rem;
+        border-radius: 0.8rem;
+        background-color: $primary-color;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: $secondary-color;
+            color: #fff;
+        }
+    }
+}

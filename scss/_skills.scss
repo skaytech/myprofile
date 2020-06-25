@@ -1,0 +1,27 @@
+@import "./variables";
+#skills {
+    background: $primary-color;
+    height: 600px;
+    .container {
+        height: 100%;
+    }
+    .section-heading {
+        text-transform: uppercase;
+    }
+    .heading-separator {
+        width: 7rem;
+    }
+}
+
+#skills-content {
+    height: 70%;
+    #languages,
+    #frameworks,
+    #db {
+        img {
+            height: 60px;
+            width: auto;
+            display: inline-block;
+        }
+    }
+}

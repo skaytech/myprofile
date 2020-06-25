@@ -1,0 +1,9 @@
+@import "./variables";
+#main-footer {
+    background: $primary-color;
+    .footer-text {
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
