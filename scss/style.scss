@@ -20,7 +20,7 @@ body {
 .separator {
     width: 7rem;
     height: 0.5rem;
-    display: block;
+    display: inline-block;
     background: $secondary-color;
     margin-top: 2rem;
 }

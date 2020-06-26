@@ -1,14 +1,13 @@
 @import "./variables";
 #showcase {
-    h1 {
-        font-size: 4rem;
-        font-weight: 400;
-    }
     .row {
         height: 90vh;
     }
-    #links {
-        margin-top: 1rem;
+    #title {
+        margin-bottom: 1rem;
+    }
+    .separator {
+        display: block;
     }
     i {
         color: #333;
@@ -18,9 +17,61 @@
             color: $secondary-color;
         }
     }
-    #photo {
-        img {
-            border-radius: 50%;
+}
+
+@media(max-width:500px) {
+    #showcase {
+        #title h1 {
+            font-size: 2rem;
+            font-weight: 200;
+            text-align: center;
+            margin-bottom: 0.9rem;
+        }
+        #links {
+            text-align: center;
+        }
+        .separator {
+            display: inline-block;
+        }
+    }
+}
+
+@media(max-width:375px) {
+    #showcase {
+        #title h1 {
+            font-size: 1.8rem;
+            font-weight: 200;
+            text-align: center;
+            margin-bottom: 0.8rem;
+        }
+        #links {
+            text-align: center;
+        }
+        .separator {
+            display: inline-block;
+        }
+        i {
+            margin-right: 2.5rem;
+        }
+    }
+}
+
+@media(max-width:374px) {
+    #showcase {
+        #title h1 {
+            font-size: 1.5rem;
+            font-weight: 100;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        #links {
+            text-align: center;
+        }
+        .separator {
+            display: inline-block;
+        }
+        i {
+            margin-right: 1.5rem;
         }
     }
 }

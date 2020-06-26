@@ -87,17 +87,16 @@
   background: #fcbf1e;
 }
 
-#showcase h1 {
-  font-size: 4rem;
-  font-weight: 400;
-}
-
 #showcase .row {
   height: 90vh;
 }
 
-#showcase #links {
-  margin-top: 1rem;
+#showcase #title {
+  margin-bottom: 1rem;
+}
+
+#showcase .separator {
+  display: block;
 }
 
 #showcase i {
@@ -111,8 +110,55 @@
   color: #fcbf1e;
 }
 
-#showcase #photo img {
-  border-radius: 50%;
+@media (max-width: 500px) {
+  #showcase #title h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0.9rem;
+  }
+  #showcase #links {
+    text-align: center;
+  }
+  #showcase .separator {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 375px) {
+  #showcase #title h1 {
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+  #showcase #links {
+    text-align: center;
+  }
+  #showcase .separator {
+    display: inline-block;
+  }
+  #showcase i {
+    margin-right: 2.5rem;
+  }
+}
+
+@media (max-width: 374px) {
+  #showcase #title h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  #showcase #links {
+    text-align: center;
+  }
+  #showcase .separator {
+    display: inline-block;
+  }
+  #showcase i {
+    margin-right: 1.5rem;
+  }
 }
 
 #skills {
@@ -144,15 +190,15 @@
   display: inline-block;
 }
 
-#contact-info .section-heading {
+#contact .section-heading {
   text-transform: uppercase;
 }
 
-#contact-info .heading-separator {
+#contact .heading-separator {
   width: 11rem;
 }
 
-#contact-info .btn {
+#contact .btn {
   width: 50%;
   margin: 0.8rem auto;
   padding: 0.8rem;
@@ -164,7 +210,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-#contact-info .btn:hover {
+#contact .btn:hover {
   background-color: #fcbf1e;
   color: #fff;
 }
@@ -194,7 +240,7 @@ body {
 .separator {
   width: 7rem;
   height: 0.5rem;
-  display: block;
+  display: inline-block;
   background: #fcbf1e;
   margin-top: 2rem;
 }
