@@ -18,12 +18,12 @@
         }
     }
     #links {
-        transform: translateY(800px);
+        transform: translateX(-800px);
         animation: link 2s forwards ease-in;
     }
     @keyframes link {
         to {
-            transform: translateY(0px);
+            transform: translateX(0px);
         }
     }
     .separator {
@@ -48,12 +48,12 @@
                 font-weight: 200;
                 text-align: center;
                 margin-bottom: 0.8rem;
-                transform: translateX(-400px);
+                transform: translateY(-200px);
                 animation: heading 1.5s forwards ease-in;
             }
             @keyframes heading {
                 to {
-                    transform: translateX(0px);
+                    transform: translateY(0px);
                 }
             }
         }
@@ -68,7 +68,7 @@
         }
         #links {
             text-align: center;
-            transform: translateX(800px);
+            transform: translateX(-400px);
             animation: link 2s forwards ease-in;
             @keyframes link {
                 to {
@@ -84,8 +84,10 @@
 
 @media(max-width:375px) {
     #showcase {
+        height: 750px;
         .row {
-            height: 98vh;
+            height: 80%;
+            padding-top: 80px;
         }
         #title {
             h1 {
@@ -93,18 +95,18 @@
                 font-weight: 200;
                 text-align: center;
                 margin-bottom: 0.8rem;
-                transform: translateX(-400px);
+                transform: translateY(-200px);
                 animation: heading 1.5s forwards ease-in;
             }
             @keyframes heading {
                 to {
-                    transform: translateX(0px);
+                    transform: translateY(0px);
                 }
             }
         }
         #links {
             text-align: center;
-            transform: translateX(800px);
+            transform: translateX(-400px);
             animation: link 2s forwards ease-in;
             @keyframes link {
                 to {

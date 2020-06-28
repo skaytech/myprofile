@@ -90,68 +90,40 @@
                 <h2 class="section-heading">Skills</h2>
                 <div class="heading-separator"></div>
             </div>
-            <div id="skills-content" class="card text-center py-3">
-                <div id="languages">
-                    <div class="row py-3">
-                        <div id="html" class="col-md-3 col-sm-2">
-                            <img src="./img/html5.png" alt="" class="mb-2">
-                            <h5>HTML5</h5>
-                        </div>
-                        <div id="css" class="col-md-3 col-sm-2">
-                            <img src="./img/css3.png" alt="" class="mb-2">
-                            <h5>CSS3</h5>
-                        </div>
-                        <div id="js" class="col-md-3">
-                            <img src="./img/javascript.png" alt="" class="mb-2">
-                            <h5>JavaScript</h5>
-                        </div>
-                        <div id="java" class="col-md-3">
-                            <img src="./img/java.png" alt="" class="mb-2">
-                            <h5>Java</h5>
-                        </div>
+            <div id="skills-content" class="text-center">
+                <h3 id="title1">Languages/Frameworks</h3>
+                <h3 id="title2">Database/Tools</h3>
+                <div id="col-1">
+                    <div class="lang-framework">
+                        <li class="lang-col-1"><img src="./img/html5.png" alt="Html5 logo"><strong>HTML5</strong></li>
+                        <li class="lang-col-1"><img src="./img/css3.png" alt="Css3 logo"><strong>CSS</strong></li>
+                        <li class="lang-col-1"><img src="./img/javascript.png" alt="JavaScript logo"><strong>JavaScript</strong></li>
+                        <li class="lang-col-1"><img src="./img/java.png" alt="Java logo"><strong>Java</strong></li>
+                    </div>
+
+                    <div class="db-tools">
+                        <li class="db-col-1"><img src="./img/mysql.jfif" alt="MySQL logo"><strong>MySQL</strong></li>
+                        <li class="db-col-1"><img src="./img/postgreSQL.png" alt="PostgreSQL logo"><strong>PostgreSQL</strong></li>
+                        <li class="db-col-1"><img src="./img/mongodb.png" alt="MongoDB logo"><strong>MongoDB</strong></li>
+                        <li class="db-col-1"><img src="./img/dynamodb.png" alt="DynamoDB logo"><strong>DynamoDB</strong></li>
                     </div>
                 </div>
-                <div id="frameworks">
-                    <div class="row py-3">
-                        <div id="bs" class="col-md-3">
-                            <img src="./img/bootstrap.png" alt="" class="mb-2">
-                            <h5>Bootstrap4</h5>
-                        </div>
-                        <div id="sass" class="col-md-3">
-                            <img src="./img/sass.png" alt="" class="mb-2">
-                            <h5>SASS</h5>
-                        </div>
-                        <div id="spring" class="col-md-3">
-                            <img src="./img/javaspring.jfif" alt="" class="mb-2">
-                            <h5>Java Spring</h5>
-                        </div>
-                        <div id="rest" class="col-md-3">
-                            <img src="./img/javarest.jfif" alt="" class="mb-2">
-                            <h5>Java REST</h5>
-                        </div>
+                <div id="col-2">
+                    <div class="lang-framework">
+                        <li class="lang-col-2"><img src="./img/bootstrap.png" alt="Boostrap logo"><strong>Bootstrap</strong></li>
+                        <li class="lang-col-2"><img src="./img/sass.png" alt="Sass logo"><strong>SASS</strong></li>
+                        <li class="lang-col-2"><img src="./img/javaspring.jfif" alt="Java Spring logo"><strong>Java Spring</strong></li>
+                        <li class="lang-col-2"><img src="./img/javarest.jfif" alt="Java Rest logo"><strong>Java Rest</strong></li>
                     </div>
-                </div>
-                <div id="db">
-                    <div class="row py-3">
-                        <div id="ps" class="col-md-3">
-                            <img src="./img/postgreSQL.png" alt="" class="mb-2">
-                            <h5>PostgreSQL</h5>
-                        </div>
-                        <div id="ms" class="col-md-3">
-                            <img src="./img/mysql.jfif" alt="" class="mb-2">
-                            <h5>MySQL</h5>
-                        </div>
-                        <div id="mongo" class="col-md-3">
-                            <img src="./img/mongodb.png" alt="" class="mb-2">
-                            <h5>MongoDB</h5>
-                        </div>
-                        <div id="dynamo" class="col-md-3">
-                            <img src="./img/dynamodb.png" alt="" class="mb-2">
-                            <h5>DynamoDB</h5>
-                        </div>
+                    <div class="db-tools">
+                        <li class="db-col-2"><img src="./img/bable.jfif" alt="MySQL logo"><strong>Babel</strong></li>
+                        <li class="db-col-2"><img src="./img/webpack.jfif" alt="PostgreSQL logo"><strong>Webpack</strong></li>
+                        <li class="db-col-2"><img src="./img/docker.jfif" alt="Docker logo"><strong>Docker</strong></li>
+                        <li class="db-col-2"><img src="./img/git.jfif" alt="Git logo"><strong>Git</strong></li>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- Skills Section - End -->
@@ -206,7 +178,9 @@
 
     <!-- Footer End -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="js/gsap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
