@@ -6,6 +6,7 @@
         height: 100%;
     }
     .section-heading {
+        padding-top: 2.2rem;
         text-transform: uppercase;
     }
     .heading-separator {
@@ -22,6 +23,35 @@
             height: 60px;
             width: auto;
             display: inline-block;
+        }
+        #html,
+        #bs,
+        #ps {
+            transform: translateX(-1800px);
+            animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+        }
+        #css,
+        #sass,
+        #ms {
+            transform: translateX(-1800px);
+            animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+        }
+        #js,
+        #spring,
+        #mongo {
+            transform: translateX(1800px);
+            animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+        }
+        #java,
+        #rest,
+        #dynamo {
+            transform: translateX(1800px);
+            animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+        }
+    }
+    @keyframes html {
+        to {
+            transform: translateX(0px);
         }
     }
 }

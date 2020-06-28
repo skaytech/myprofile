@@ -1,9 +1,6 @@
 #main-nav {
-    h3 {
-        padding-top: 10px;
-    }
     .container {
-        padding-bottom: 10px;
+        padding-bottom: 4px;
         border-bottom: 1px solid #000;
     }
     .logo {
@@ -49,14 +46,23 @@
 
 .navbar {
     .nav-link {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: bold;
         color: #000 !important;
-        padding: 0.6rem 1.6rem !important;
+        padding: 0.4rem 1.4rem !important;
         border-radius: 1.4rem !important;
         transition: background 0.3s ease-in-out;
         &:hover {
             background: $secondary-color;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        .nav-link {
+            font-size: 0.9rem;
+            padding: 0.3rem 1.3rem !important;
         }
     }
 }

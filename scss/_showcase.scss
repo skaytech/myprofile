@@ -1,10 +1,12 @@
 @import "./variables";
 #showcase {
-    .row {
-        height: 90vh;
+    height: 700px;
+    .row,
+    .container {
+        height: 100%;
     }
     #title {
-        margin-bottom: 1rem;
+        padding: 1rem 0;
     }
     .separator {
         display: block;
@@ -21,11 +23,21 @@
 
 @media(max-width:500px) {
     #showcase {
+        height: 730px;
         #title h1 {
             font-size: 2rem;
             font-weight: 200;
             text-align: center;
-            margin-bottom: 0.9rem;
+            margin-bottom: 0.8rem;
+        }
+        .row {
+            height: 80%;
+            padding-top: 80px;
+        }
+        #photo {
+            .img-fluid {
+                max-width: 50%;
+            }
         }
         #links {
             text-align: center;
@@ -38,6 +50,9 @@
 
 @media(max-width:375px) {
     #showcase {
+        .row {
+            height: 98vh;
+        }
         #title h1 {
             font-size: 1.8rem;
             font-weight: 200;
@@ -58,6 +73,9 @@
 
 @media(max-width:374px) {
     #showcase {
+        .row {
+            height: 700px;
+        }
         #title h1 {
             font-size: 1.5rem;
             font-weight: 100;

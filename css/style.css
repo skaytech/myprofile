@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-#main-nav h3 {
-  padding-top: 10px;
-}
-
 #main-nav .container {
-  padding-bottom: 10px;
+  padding-bottom: 4px;
   border-bottom: 1px solid #000;
 }
 
@@ -74,10 +70,10 @@
 }
 
 .navbar .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #000 !important;
-  padding: 0.6rem 1.6rem !important;
+  padding: 0.4rem 1.4rem !important;
   border-radius: 1.4rem !important;
   -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
@@ -87,12 +83,24 @@
   background: #fcbf1e;
 }
 
-#showcase .row {
-  height: 90vh;
+@media (max-width: 500px) {
+  .navbar .nav-link {
+    font-size: 0.9rem;
+    padding: 0.3rem 1.3rem !important;
+  }
+}
+
+#showcase {
+  height: 700px;
+}
+
+#showcase .row,
+#showcase .container {
+  height: 100%;
 }
 
 #showcase #title {
-  margin-bottom: 1rem;
+  padding: 1rem 0;
 }
 
 #showcase .separator {
@@ -111,11 +119,21 @@
 }
 
 @media (max-width: 500px) {
+  #showcase {
+    height: 730px;
+  }
   #showcase #title h1 {
     font-size: 2rem;
     font-weight: 200;
     text-align: center;
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+  #showcase .row {
+    height: 80%;
+    padding-top: 80px;
+  }
+  #showcase #photo .img-fluid {
+    max-width: 50%;
   }
   #showcase #links {
     text-align: center;
@@ -126,6 +144,9 @@
 }
 
 @media (max-width: 375px) {
+  #showcase .row {
+    height: 98vh;
+  }
   #showcase #title h1 {
     font-size: 1.8rem;
     font-weight: 200;
@@ -144,6 +165,9 @@
 }
 
 @media (max-width: 374px) {
+  #showcase .row {
+    height: 700px;
+  }
   #showcase #title h1 {
     font-size: 1.5rem;
     font-weight: 100;
@@ -171,6 +195,7 @@
 }
 
 #skills .section-heading {
+  padding-top: 2.2rem;
   text-transform: uppercase;
 }
 
@@ -190,7 +215,82 @@
   display: inline-block;
 }
 
+#skills-content #languages #html,
+#skills-content #languages #bs,
+#skills-content #languages #ps,
+#skills-content #frameworks #html,
+#skills-content #frameworks #bs,
+#skills-content #frameworks #ps,
+#skills-content #db #html,
+#skills-content #db #bs,
+#skills-content #db #ps {
+  -webkit-transform: translateX(-1800px);
+          transform: translateX(-1800px);
+  -webkit-animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+}
+
+#skills-content #languages #css,
+#skills-content #languages #sass,
+#skills-content #languages #ms,
+#skills-content #frameworks #css,
+#skills-content #frameworks #sass,
+#skills-content #frameworks #ms,
+#skills-content #db #css,
+#skills-content #db #sass,
+#skills-content #db #ms {
+  -webkit-transform: translateX(-1800px);
+          transform: translateX(-1800px);
+  -webkit-animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+}
+
+#skills-content #languages #js,
+#skills-content #languages #spring,
+#skills-content #languages #mongo,
+#skills-content #frameworks #js,
+#skills-content #frameworks #spring,
+#skills-content #frameworks #mongo,
+#skills-content #db #js,
+#skills-content #db #spring,
+#skills-content #db #mongo {
+  -webkit-transform: translateX(1800px);
+          transform: translateX(1800px);
+  -webkit-animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+}
+
+#skills-content #languages #java,
+#skills-content #languages #rest,
+#skills-content #languages #dynamo,
+#skills-content #frameworks #java,
+#skills-content #frameworks #rest,
+#skills-content #frameworks #dynamo,
+#skills-content #db #java,
+#skills-content #db #rest,
+#skills-content #db #dynamo {
+  -webkit-transform: translateX(1800px);
+          transform: translateX(1800px);
+  -webkit-animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+}
+
+@-webkit-keyframes html {
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes html {
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
 #contact .section-heading {
+  padding-top: 2.2rem;
   text-transform: uppercase;
 }
 
