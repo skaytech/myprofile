@@ -103,6 +103,48 @@
   padding: 1rem 0;
 }
 
+#showcase #title h1 {
+  -webkit-transform: translateY(-800px);
+          transform: translateY(-800px);
+  -webkit-animation: heading 1.5s forwards ease-in;
+          animation: heading 1.5s forwards ease-in;
+}
+
+@-webkit-keyframes heading {
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes heading {
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+#showcase #links {
+  -webkit-transform: translateY(800px);
+          transform: translateY(800px);
+  -webkit-animation: link 2s forwards ease-in;
+          animation: link 2s forwards ease-in;
+}
+
+@-webkit-keyframes link {
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes link {
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
 #showcase .separator {
   display: block;
 }
@@ -127,6 +169,22 @@
     font-weight: 200;
     text-align: center;
     margin-bottom: 0.8rem;
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+    -webkit-animation: heading 1.5s forwards ease-in;
+            animation: heading 1.5s forwards ease-in;
+  }
+  @-webkit-keyframes heading {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  @keyframes heading {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
   }
   #showcase .row {
     height: 80%;
@@ -137,6 +195,22 @@
   }
   #showcase #links {
     text-align: center;
+    -webkit-transform: translateX(800px);
+            transform: translateX(800px);
+    -webkit-animation: link 2s forwards ease-in;
+            animation: link 2s forwards ease-in;
+  }
+  @-webkit-keyframes link {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  @keyframes link {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
   }
   #showcase .separator {
     display: inline-block;
@@ -152,9 +226,41 @@
     font-weight: 200;
     text-align: center;
     margin-bottom: 0.8rem;
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+    -webkit-animation: heading 1.5s forwards ease-in;
+            animation: heading 1.5s forwards ease-in;
+  }
+  @-webkit-keyframes heading {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  @keyframes heading {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
   }
   #showcase #links {
     text-align: center;
+    -webkit-transform: translateX(800px);
+            transform: translateX(800px);
+    -webkit-animation: link 2s forwards ease-in;
+            animation: link 2s forwards ease-in;
+  }
+  @-webkit-keyframes link {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  @keyframes link {
+    to {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
   }
   #showcase .separator {
     display: inline-block;
@@ -226,8 +332,8 @@
 #skills-content #db #ps {
   -webkit-transform: translateX(-1800px);
           transform: translateX(-1800px);
-  -webkit-animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
-          animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+  -webkit-animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
 }
 
 #skills-content #languages #css,
@@ -241,8 +347,8 @@
 #skills-content #db #ms {
   -webkit-transform: translateX(-1800px);
           transform: translateX(-1800px);
-  -webkit-animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
-          animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+  -webkit-animation: html 2s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 2s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
 }
 
 #skills-content #languages #js,
@@ -256,8 +362,8 @@
 #skills-content #db #mongo {
   -webkit-transform: translateX(1800px);
           transform: translateX(1800px);
-  -webkit-animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
-          animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+  -webkit-animation: html 2s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 2s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
 }
 
 #skills-content #languages #java,
@@ -271,8 +377,8 @@
 #skills-content #db #dynamo {
   -webkit-transform: translateX(1800px);
           transform: translateX(1800px);
-  -webkit-animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
-          animation: html 4s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+  -webkit-animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
+          animation: html 3s forwards cubic-bezier(0.42, 0, 0.46, 0.2);
 }
 
 @-webkit-keyframes html {

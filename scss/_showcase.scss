@@ -7,6 +7,24 @@
     }
     #title {
         padding: 1rem 0;
+        h1 {
+            transform: translateY(-800px);
+            animation: heading 1.5s forwards ease-in;
+        }
+        @keyframes heading {
+            to {
+                transform: translateY(0px);
+            }
+        }
+    }
+    #links {
+        transform: translateY(800px);
+        animation: link 2s forwards ease-in;
+    }
+    @keyframes link {
+        to {
+            transform: translateY(0px);
+        }
     }
     .separator {
         display: block;
@@ -24,11 +42,20 @@
 @media(max-width:500px) {
     #showcase {
         height: 730px;
-        #title h1 {
-            font-size: 2rem;
-            font-weight: 200;
-            text-align: center;
-            margin-bottom: 0.8rem;
+        #title {
+            h1 {
+                font-size: 2rem;
+                font-weight: 200;
+                text-align: center;
+                margin-bottom: 0.8rem;
+                transform: translateX(-400px);
+                animation: heading 1.5s forwards ease-in;
+            }
+            @keyframes heading {
+                to {
+                    transform: translateX(0px);
+                }
+            }
         }
         .row {
             height: 80%;
@@ -41,6 +68,13 @@
         }
         #links {
             text-align: center;
+            transform: translateX(800px);
+            animation: link 2s forwards ease-in;
+            @keyframes link {
+                to {
+                    transform: translateX(0px);
+                }
+            }
         }
         .separator {
             display: inline-block;
@@ -53,14 +87,30 @@
         .row {
             height: 98vh;
         }
-        #title h1 {
-            font-size: 1.8rem;
-            font-weight: 200;
-            text-align: center;
-            margin-bottom: 0.8rem;
+        #title {
+            h1 {
+                font-size: 1.8rem;
+                font-weight: 200;
+                text-align: center;
+                margin-bottom: 0.8rem;
+                transform: translateX(-400px);
+                animation: heading 1.5s forwards ease-in;
+            }
+            @keyframes heading {
+                to {
+                    transform: translateX(0px);
+                }
+            }
         }
         #links {
             text-align: center;
+            transform: translateX(800px);
+            animation: link 2s forwards ease-in;
+            @keyframes link {
+                to {
+                    transform: translateX(0px);
+                }
+            }
         }
         .separator {
             display: inline-block;
