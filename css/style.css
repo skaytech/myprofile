@@ -300,8 +300,17 @@
   height: 820px;
 }
 
+#projects .heading {
+  padding: 1rem, 0;
+  margin: 1.5rem, 0;
+}
+
+#projects .row {
+  border-radius: 10px;
+}
+
 #projects .row h3 {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 #projects .row #glozzom {
@@ -340,7 +349,7 @@
 }
 
 #skills {
-  height: 800px;
+  height: 750px;
 }
 
 #skills .container {
