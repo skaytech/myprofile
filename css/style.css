@@ -343,6 +343,26 @@
   }
 }
 
+@media (max-width: 768px) {
+  #projects {
+    height: 760px;
+  }
+  #projects .row {
+    padding: 1.2rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+  #projects .row h3 {
+    font-size: 2.2rem;
+  }
+  #projects .row .col-md-6 {
+    padding-top: 1.2rem !important;
+    padding-bottom: 1.2rem !important;
+  }
+  #projects .row .col-md-6 p {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 500px) {
   #projects {
     height: 960px;
