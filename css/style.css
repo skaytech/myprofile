@@ -363,6 +363,18 @@
   }
 }
 
+@media (max-width: 375px) {
+  #projects {
+    height: 940px;
+  }
+}
+
+@media (max-width: 320px) {
+  #projects {
+    height: 940px;
+  }
+}
+
 #skills {
   height: 770px;
 }
@@ -587,5 +599,17 @@ body {
     font-size: 2rem;
     font-weight: bold;
     padding-top: 1.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-heading {
+    padding-top: 1.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-heading {
+    padding-top: 1.6rem;
   }
 }

@@ -56,3 +56,15 @@ body {
         padding-top: 1.8rem;
     }
 }
+
+@media (max-width: 375px) {
+    .section-heading {
+        padding-top: 1.7rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-heading {
+        padding-top: 1.6rem;
+    }
+}
