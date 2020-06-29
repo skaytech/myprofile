@@ -3,6 +3,7 @@
 @import "./variables";
 @import "./main-nav";
 @import "./showcase";
+@import "./projects";
 @import "./skills";
 @import "./contact";
 @import "./footer";
@@ -29,6 +30,8 @@ body {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    padding-top: 2.2rem;
+    text-transform: uppercase;
 }
 
 .heading-separator {

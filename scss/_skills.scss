@@ -1,13 +1,8 @@
     @import "./variables";
     #skills {
-        background: $primary-color;
         height: 800px;
         .container {
             height: 100%;
-        }
-        .section-heading {
-            padding-top: 2.2rem;
-            text-transform: uppercase;
         }
         .heading-separator {
             width: 7rem;
@@ -21,7 +16,7 @@
             position: relative;
             display: flex;
             justify-content: center;
-            background-color: #f4f4f4;
+            background-color: $primary-color;
             &>h3 {
                 font-size: 2rem;
                 position: absolute;

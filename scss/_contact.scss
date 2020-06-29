@@ -1,23 +1,20 @@
 @import "./variables";
 #contact {
-    .section-heading {
-        padding-top: 2.2rem;
-        text-transform: uppercase;
-    }
+    background: $primary-color;
     .heading-separator {
         width: 11rem;
     }
     .btn {
         width: 50%;
-        margin: 0.8rem auto;
+        margin: 1rem auto;
         padding: 0.8rem;
         border-radius: 0.8rem;
-        background-color: $primary-color;
+        background-color: $secondary-color;
         font-size: 1.2rem;
         font-weight: bold;
         transition: all 0.3s ease-in-out;
         &:hover {
-            background-color: $secondary-color;
+            opacity: 0.9;
             color: #fff;
         }
     }

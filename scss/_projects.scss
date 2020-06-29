@@ -1,0 +1,10 @@
+@import "./variables";
+#projects {
+    background: $primary-color;
+    height: 820px;
+    .row {
+        h3 {
+            font-size: 2rem;
+        }
+    }
+}
