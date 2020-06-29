@@ -1,7 +1,7 @@
 @import "./variables";
 #projects {
     background: $primary-color;
-    height: 780px;
+    height: 850px;
     .row {
         border-radius: 10px;
         h3 {
@@ -30,11 +30,20 @@
 
 @media (max-width: 500px) {
     #projects {
-        height: 1120px;
-    }
-    .row {
-        h3 {
-            font-size: 1.9rem;
+        height: 960px;
+        .row {
+            h3 {
+                font-size: 2.1rem;
+            }
+            padding: 1rem !important;
+            margin-bottom: 1rem !important;
+            .col-md-6 {
+                padding-top: 1rem !important;
+                padding-bottom: 1rem !important;
+                p {
+                    font-size: 1rem;
+                }
+            }
         }
     }
 }

@@ -297,7 +297,7 @@
 
 #projects {
   background: #dcd6f7;
-  height: 780px;
+  height: 850px;
 }
 
 #projects .row {
@@ -345,15 +345,26 @@
 
 @media (max-width: 500px) {
   #projects {
-    height: 1120px;
+    height: 960px;
   }
-  .row h3 {
-    font-size: 1.9rem;
+  #projects .row {
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  #projects .row h3 {
+    font-size: 2.1rem;
+  }
+  #projects .row .col-md-6 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  #projects .row .col-md-6 p {
+    font-size: 1rem;
   }
 }
 
 #skills {
-  height: 750px;
+  height: 770px;
 }
 
 #skills .container {
@@ -366,7 +377,7 @@
 
 #skills #skills-content {
   height: 600px;
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: 5rem 4rem 4rem 2rem;
   border-radius: 0.6rem;
