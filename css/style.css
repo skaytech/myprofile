@@ -219,11 +219,14 @@
 
 @media (max-width: 375px) {
   #showcase {
-    height: 750px;
+    height: 810px;
   }
   #showcase .row {
     height: 80%;
     padding-top: 80px;
+  }
+  #showcase .row .col-md-5 {
+    margin-bottom: 2rem;
   }
   #showcase #title h1 {
     font-size: 1.8rem;

@@ -84,10 +84,13 @@
 
 @media(max-width:375px) {
     #showcase {
-        height: 750px;
+        height: 810px;
         .row {
             height: 80%;
             padding-top: 80px;
+            .col-md-5 {
+                margin-bottom: 2rem;
+            }
         }
         #title {
             h1 {
