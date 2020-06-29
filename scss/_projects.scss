@@ -6,5 +6,23 @@
         h3 {
             font-size: 2rem;
         }
+        #glozzom {
+            transform: translateX(800px);
+            animation: image 1.5s forwards ease-in;
+            @keyframes image {
+                to {
+                    transform: translateX(0px);
+                }
+            }
+        }
+        #tracalorie {
+            transform: translateX(-800px);
+            animation: image 1.5s forwards ease-in;
+            @keyframes image {
+                to {
+                    transform: translateX(0px);
+                }
+            }
+        }
     }
 }

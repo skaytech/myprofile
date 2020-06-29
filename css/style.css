@@ -304,6 +304,41 @@
   font-size: 2rem;
 }
 
+#projects .row #glozzom {
+  -webkit-transform: translateX(800px);
+          transform: translateX(800px);
+  -webkit-animation: image 1.5s forwards ease-in;
+          animation: image 1.5s forwards ease-in;
+}
+
+@-webkit-keyframes image {
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes image {
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+#projects .row #tracalorie {
+  -webkit-transform: translateX(-800px);
+          transform: translateX(-800px);
+  -webkit-animation: image 1.5s forwards ease-in;
+          animation: image 1.5s forwards ease-in;
+}
+
+@keyframes image {
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
 #skills {
   height: 800px;
 }
