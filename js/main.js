@@ -48,6 +48,6 @@ const title1 = document.getElementById('title1');
 const title2 = document.getElementById('title2');
 
 if (window.innerWidth < 501) {
-    title1.innerHTML = 'Language';
-    title2.innerHTML = 'Database';
+    title1.innerHTML = 'Languages';
+    title2.innerHTML = 'Databases';
 }

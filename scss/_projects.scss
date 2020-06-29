@@ -1,11 +1,7 @@
 @import "./variables";
 #projects {
     background: $primary-color;
-    height: 820px;
-    .heading {
-        padding: 1rem, 0;
-        margin: 1.5rem, 0;
-    }
+    height: 780px;
     .row {
         border-radius: 10px;
         h3 {
@@ -28,6 +24,17 @@
                     transform: translateX(0px);
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    #projects {
+        height: 1120px;
+    }
+    .row {
+        h3 {
+            font-size: 1.9rem;
         }
     }
 }
