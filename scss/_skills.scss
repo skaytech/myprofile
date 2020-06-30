@@ -111,6 +111,9 @@
     @media (max-width: 375px) {
         #skills {
             #skills-content {
+                &>h3 {
+                    font-size: 2rem;
+                }
                 #col-1 {
                     margin: 3rem 2rem 2rem 1rem;
                 }
@@ -121,6 +124,9 @@
     @media (max-width: 320px) {
         #skills {
             #skills-content {
+                &>h3 {
+                    font-size: 1.8rem;
+                }
                 #col-1 {
                     margin: 3rem 1rem 2rem 1rem;
                     li {
