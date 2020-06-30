@@ -160,6 +160,22 @@
   color: #fcbf1e;
 }
 
+@media (max-width: 768px) {
+  #showcase {
+    height: 850px;
+  }
+  #showcase #title h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+  #showcase #links i {
+    margin-right: 1.5rem;
+  }
+  #showcase #links .fa-2x {
+    font-size: 1.3em;
+  }
+}
+
 @media (max-width: 500px) {
   #showcase {
     height: 780px;
